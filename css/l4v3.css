@@ -1,0 +1,73 @@
+body{
+  font-family: 'Playfair Display', serif;
+  margin-left:40px;
+  text-align: justify;
+  letter-spacing: 10;
+  background-color: #a69f98;
+  color:#333131;
+}
+h3{
+  font-style: oblique;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: none;
+  animation-name: letter-spacing;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  border-bottom: #CACACA 2px dashed;
+}
+h4{
+  font-kerning: 5px;
+  font-weight: 700;
+  margin-top: none;
+  padding-top: 10px;
+  animation-name: letter-spacing2;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+h3:hover{
+  color:White;
+  font-size: 60px;
+}
+
+.container{
+
+}
+.left-serene{
+  position: fixed;
+  width:calc(25% - 10px);
+  height:100vh;
+  margin:none !important;
+  padding:none !important;
+  background-color: #9aaa83;
+  z-index: -999;
+}
+@keyframes letter-spacing{
+  0%{letter-spacing: normal;}
+  25%{letter-spacing: 10px;}
+  50%{letter-spacing: 30px;}
+  75%{letter-spacing: 10px;}
+  100%{letter-spacing: normal;}
+
+}
+@keyframes letter-spacing2{
+  0%{letter-spacing: 30px;}
+  25%{letter-spacing: 10px;}
+  50%{letter-spacing: normal;}
+  75%{letter-spacing: 10px;}
+  100%{letter-spacing: 30px;}
+
+}
+
+#back{
+  color:#333131;
+  font-size:80px;
+  position:absolute;
+  left:80%;
+  top:15%;
+  z-index: 999;
+}
+#back:hover{
+  color:white;
+}

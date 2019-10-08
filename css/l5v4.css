@@ -1,0 +1,44 @@
+body{
+  font-family: 'Playfair Display', serif;
+  background-image: linear-gradient(#e3ce73,#738b48);
+  text-align: center;
+  line-height: 33px;
+  font-size: 20px;
+  color:#4f4e4a;
+  font-weight: bolder;
+}
+h1{
+  margin-left: 50px;
+}
+h5{margin-left: 50px;
+}
+.container{
+
+}
+.back{
+  font-size: 32px;
+  color:white;
+  position: absolute;
+  bottom:5px;
+}
+
+@media only screen and (max-width:750px){
+body{
+  font-size: 14px;
+  line-height: 20px;
+  text-align: justify;
+  border:1px white dashed;
+  padding:5px;
+  margin:10px;
+  box-sizing: border-box;
+  color: #262624;
+  font-weight: normal;
+}
+.back{
+  font-size: 16px;
+  color:white;
+  padding-top: none;
+}
+
+
+}

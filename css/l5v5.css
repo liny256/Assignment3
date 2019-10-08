@@ -1,0 +1,80 @@
+body{
+  font-family: 'Playfair Display', serif;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  animation-name:back-ground;
+  animation-duration: 4s;
+  animation-delay: 3s;
+  animation-timing-function: ease-in-out;
+  background-image: linear-gradient(#3366d7,#e88137);
+  color:white;
+}
+@keyframes back-ground {
+  from{background-image: linear-gradient(#3366d7,#e88137);}
+  to{background-image: linear-gradient(#ac788b,#3a6f4d);}
+}
+h1{
+  color:#144374;
+  animation-name:color;
+  animation-duration: 4s;
+  animation-timing-function: ease-in-out;
+}
+h4{
+    color:#144374;
+    animation-name:color;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+}
+@keyframes color {
+  from{color:#144374;}
+  to{color:#4a289c;}
+}
+.container{
+
+}
+
+.lastr{
+  border-top: 2px dashed #94daf9;
+  padding-bottom: 10px;
+
+}
+.back{
+  font-size: 32px;
+  color:white;
+  position: absolute;
+  bottom: 5px;
+}
+
+
+
+
+
+
+@ media only screen and (max-width:750px){
+
+body{
+  font-size: 14px;
+  line-height: 20px;
+  text-align: justify;
+  background-image:linear-gradient(white,#e88137);
+  font-weight: normal;
+}
+h4{
+  border-bottom: 2px #144374 dashed;
+}
+.back{
+  font-size: 16px;
+  color:white;
+  position: absolute;
+  bottom: 5px;
+
+}
+#M{
+  font-size: 20px;
+  color:#144374 ;
+  font-weight: 700;
+}
+
+}

@@ -1,0 +1,101 @@
+body{
+  background-image: linear-gradient(#61b9ac,#e98872);
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+}
+
+h3{
+  color:white;
+  font-size: 48px;
+}
+h4{
+  color:#3e4141;
+  padding-bottom: 40px;
+}
+ol{
+  color:#3e4141;
+}
+ul{
+  color:white;
+}
+.container{
+
+}
+.circleborder{
+  position:absolute;
+  border-radius: 50%;
+  border: white 2px dotted;
+  z-index: -999;
+}
+
+#one{
+  left:60%;
+  top:60%;
+  width:300px;
+  height:300px;
+  animation-name: one;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+@keyframes one {
+  from{width: 300px;
+  height:300px;}
+  to{width:400px;
+  height:400px;}
+
+}
+
+#two{
+  left:30%;
+  top:160%;
+  width:100px;
+  height:100px;
+}
+
+#three{
+  left:10%;
+  top:2%;
+  width:600px;
+  height:600px;
+  animation-name: three;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-direction: reverse;
+}
+@keyframes three {
+  from{width:600px;
+  height:600px;}
+  to{width:700px;
+  height:700px;}
+}
+
+.innercircle{
+  position:absolute;
+  border-radius: 50%;
+  background-color: white;
+  z-index: -999;
+}
+
+#eins{
+  width:100px;
+  height:100px;
+  left:35%;
+  top:35%;
+  animation-name: eins;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes eins {
+  from{width:100px;
+       height:100px;}
+  to{width:150px;
+  height:150px;}
+
+}
+
+#back{
+  color:white;
+  font-size: 24px;
+  border-bottom: 2px dotted white;
+  padding-top: 10%;
+}

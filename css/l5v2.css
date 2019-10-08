@@ -1,0 +1,42 @@
+body{
+  background-image: linear-gradient(rgba(20, 21, 73, 0.91),#ec3e20);
+  font-family: 'Playfair Display', serif;
+  line-height: 25px;
+}
+h2{
+  color:white;
+  font-weight: 700;
+  font-size: 54px;
+  padding:10px;
+}
+h6{
+  color:white;
+  font-weight: 700;
+  font-size: 22px;
+  padding:10px;
+  margin-top: 0px;
+
+}
+.moon{
+  background-color: rgba(20, 21, 73, 0.91);
+  box-shadow: #d5b965 8px 8px 8px 8px;
+  border-radius: 50%;
+  width:200px;
+  height:200px;
+  position:absolute;
+  left:50%;
+  top:20%;
+  animation-name: shining;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes shining {
+  from{box-shadow: #d5b965 8px 8px 8px 8px;}
+  to{box-shadow: #fff2c9 8px 8px 8px 8px;}
+}
+
+#goback{
+  color:white;
+  font-size: 36px;
+  padding-top: 110px;
+}

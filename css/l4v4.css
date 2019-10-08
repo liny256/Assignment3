@@ -1,0 +1,50 @@
+body{
+  font-family: 'Playfair Display', serif;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 2px;
+  background-color: #594943;
+  color:white;
+}
+.container{
+
+}
+.all-cap{
+  text-transform: uppercase;
+}
+.move{
+  position: absolute;
+  right: 3vw;
+  text-align: right;
+}
+.attention{
+  color:red;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+.M{
+  color:#6dfe08;
+}
+.M:hover{
+  font-size: 45px;
+  padding:15px;
+
+}
+.back{
+  position: absolute;
+  left:60vw;
+  top:60%;
+  border-bottom: #6dfe08 2px dashed;
+}
+#B{
+  font-size: 80px;
+  color:#6dfe08;
+}
+#B:hover{
+  font-size: 100px;
+  padding:15px;
+}
+
+#B :visited{
+  color: #14ff00;
+}

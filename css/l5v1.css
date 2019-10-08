@@ -1,0 +1,62 @@
+body{
+    font-family: 'Playfair Display', serif;
+    line-height: 45px;
+    font-size: 30px;
+    background-color: black;
+    font-weight: 700;
+}
+h1{
+  text-align: center;
+  color: white;
+}
+h4{
+  text-align: center;
+  color: white;
+  border-bottom: 2px white dashed;
+}
+.container{
+
+}
+.first-para{
+  text-align: left;
+  position:absolute;
+  left:3%;
+  top:30%;
+  animation-name: left-to-right;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  color:#52ff00;
+}
+.second-para{
+  text-align: right;
+  position:absolute;
+  right:3%;
+  top:30%;
+  animation-name: right-to-left;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  color: #914507;
+}
+
+#back{
+  font-size: 100px;
+  color:white;
+  position:fixed;
+  left:calc(50% - 120px);
+  top:calc(50% - 40px);
+}
+#back:hover{
+  color: White;
+  font-size: 120px;
+}
+#back:visited{
+  color: white;
+}
+@keyframes left-to-right {
+  from{left:3%;}
+  to{left:100%;}
+}
+@keyframes right-to-left {
+  from{right:3%;}
+  to{right:100%;}
+}

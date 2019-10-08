@@ -1,0 +1,85 @@
+body{
+  font-family: 'Playfair Display', serif;
+  color: #14ff00;
+  background-color: #585858;
+}
+
+p{
+  padding:0px;
+  margin: 0px;
+}
+
+.container{
+
+}
+.button4{
+  position:absolute;
+  box-shadow: 4px -4px 0 4px;
+  width: 300px;
+  height:200px;
+  padding:0px;
+}
+.button5{
+  position:absolute;
+  box-shadow: 4px -4px 0 4px;
+  width: 300px;
+  height:200px;
+  padding:0px;
+}
+
+
+#level4{
+  position:absolute;
+  top:230px;
+}
+#one{
+  top:300px;
+}
+#two{
+  top:300px;
+  left:400px;
+}
+#three{
+  top:300px;
+  left:800px;
+}
+
+#four{
+  top:600px;
+}
+
+#five{
+  top:600px;
+  left:400px;
+}
+
+
+
+#level5{
+  position:absolute;
+  top:930px;
+}
+
+#eins{
+  top:1000px;
+}
+#zwei{
+  top:1000px;
+  left:400px;
+}
+#drei{
+  top:1000px;
+  left:800px;
+}
+
+#vier{
+  top:1300px;
+}
+
+#fuenf{
+  top:1300px;
+  left:400px;
+}
+#bigtitle{
+  padding-top: 4%;
+}
